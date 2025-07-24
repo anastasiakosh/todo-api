@@ -2,6 +2,6 @@ global:
   scrape_interval: 5s
 
 scrape_configs:
-  - job_name: 'todo-api'
+  - job_name: 'flask-app'
     static_configs:
       - targets: ['web:5000']
